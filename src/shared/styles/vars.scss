@@ -1,0 +1,20 @@
+#app {
+  --black: #000;
+  --gray: #76787D;
+  --gray-light: #E0E0E0;
+  --gray-dark: #333333;
+  --gray-lighter: #E9ECEF;
+  --gray-soft: #FDFDFD;
+  --red: #E31F24;
+  --white: #fff;
+}
+
+
+$black: var(--black);
+$gray: var(--gray);
+$gray-light: var(--gray-light);
+$gray-dark: var(--gray-dark);
+$gray-lighter: var(--gray-lighter);
+$gray-soft: var(--gray-soft);
+$red: var(--red);
+$white: var(--white);

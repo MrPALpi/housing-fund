@@ -1,0 +1,19 @@
+@use './base.scss';
+
+.container {
+  padding: 20px 10px;
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+  transition: opacity 0.1s ease-in-out;
+  
+  @include desktop-up {
+    max-width: 1500px;
+    padding: 115px 50px;
+  }
+}
+
+.container_loading {
+  pointer-events: none;
+  opacity: 0.6;
+}
