@@ -15,9 +15,8 @@
 		<template v-if="props?.user?.id">
 			<img
 				class="user-info__img"
-				src="../../../../empy.webp"
-				:alt="props?.user?.username"
-			/>
+				src="/empy.webp"
+				:alt="props?.user?.username" />
 			<div class="user-info__content">
 				<div class="user-info__name">
 					{{ props.user.name }}
