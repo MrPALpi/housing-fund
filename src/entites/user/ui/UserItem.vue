@@ -12,13 +12,8 @@
 			type="radio"
 			@change="emit('selectUser', props.user.id)"
 			name="user-item"
-			class="user-item__input"
-		/>
-		<img
-			class="user-item__img"
-			src="../../../../empy.webp"
-			alt="фото пользователя"
-		/>
+			class="user-item__input" />
+		<img class="user-item__img" src="/empy.webp" alt="фото пользователя" />
 		<div class="user-item__info">
 			<div class="user-item__name">
 				{{ props.user.username }}
